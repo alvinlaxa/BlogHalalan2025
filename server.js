@@ -21,7 +21,7 @@ app.use("/api/auth", authRoutes);
 
 // Connect to MongoDB
 mongoose
-  .connect("mongodb+srv://admin:admin123@wdc028-course-booking.tadnv.mongodb.net/fitness-tracking?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://admin:admin123@wdc028-course-booking.tadnv.mongodb.net/BlogAPI?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
